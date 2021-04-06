@@ -51,7 +51,7 @@ function dividir ($a, $b)
 
 
   //Verificando se os campos estão vazios
-  if ( (!isset ($_GET["a"]) || !is_numeric($_GET["a"]) ) || ( !isset ($_GET["b"]) || !is_numeric($_GET["b"]) ) || !isset ($_GET["op"]) )
+  if ( ( !isset ( $_GET["a"] ) || !is_numeric ( $_GET["a"] ) ) || ( !isset ( $_GET["b"] ) || !is_numeric ( $_GET["b"] ) ) || !isset ( $_GET["op"] ) )
   {
     echo "Algum campo está vazio!";
   } 
