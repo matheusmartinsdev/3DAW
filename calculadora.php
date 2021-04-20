@@ -47,7 +47,7 @@
             ($operacao === "potenciacao") 
             )
           {
-            if ( (isset($a) || is_numeric($a) ) || ( isset($b) || is_numeric($b) ) )
+            if ( (isset($a) && is_numeric($a) ) && ( isset($b) && is_numeric($b) ) )
             {
               return true;
             }
