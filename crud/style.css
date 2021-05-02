@@ -1,0 +1,52 @@
+﻿* {
+  font-family: sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.botoes {
+  flex-direction: row;
+}
+
+button a {
+  text-decoration: none;
+  color: #3964c3;
+  padding: 15px;
+}
+
+.botoes button {
+  background: none;
+  border: 2px solid #3964c3;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+.delete {
+  background: tomato;
+  border: 1px solid;
+}
+
+.delete a,
+.alterar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.alterar {
+  border: 1px solid;
+  background: #3964c3;
+}
