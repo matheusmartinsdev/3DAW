@@ -8,9 +8,10 @@
     $matricula = $_POST["matricula"];
     $id = $_POST["id"];
     
-    $query = mysqli_query($link, "UPDATE `alunos` SET `nome` = '$nome', `email` = '$email', `matricula` = '$matricula' WHERE `alunos`.`id` = $id");
+    $query = "UPDATE `alunos` SET `nome` = '$nome', `email` = '$email', `matricula` = '$matricula' WHERE `alunos`.`id` = $id";
+    $update = mysqli_query($link, $query);
 
-    if ($query)
+    if ($update)
     {
       echo "<script>alert('Cadastro atualizado com sucesso!')</script>";
       // header("location: index.php");
