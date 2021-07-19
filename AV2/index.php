@@ -13,7 +13,6 @@
     <button onclick="exibeForm()">Incluir Produto</button>
     <button onclick="showTable()">Listar Produtos</button>
     <button onclick="exibeBuscar()">Buscar Produto</button>
-    <!-- <button>Produtos</button> -->
   </div>
   <div id="show"></div>
 </main>
